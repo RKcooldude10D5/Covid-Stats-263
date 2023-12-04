@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h1 {
+        color: red;
+    }
+
+</style>
+</head>
+
+
+<body>
+    <h1>Covid Statistics</h1><br>
+
+    <form method = "POST">
+        <input placeholder="Enter Country Name" name = "text">
+        <input type = "submit">
+    </form><br><br>
+    <iframe src = "{{ image }}"></iframe>
+    <p>{{ count }} Visitors Have Visited The Website</p>
+</body>
+</html>
